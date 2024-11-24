@@ -1,0 +1,358 @@
+$date
+	Sun Nov 24 17:51:11 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module CLA_15bit_tb $end
+$var wire 15 ! S [14:0] $end
+$var wire 1 " Ovf $end
+$var wire 1 # Cout $end
+$var reg 15 $ A [14:0] $end
+$var reg 15 % B [14:0] $end
+$var reg 1 & mode $end
+$scope module dut $end
+$var wire 15 ' A [14:0] $end
+$var wire 15 ( B [14:0] $end
+$var wire 15 ) B_forsubstraction [14:0] $end
+$var wire 1 " OVF $end
+$var wire 1 & mode $end
+$var wire 5 * carry [4:0] $end
+$var wire 15 + S [14:0] $end
+$var wire 1 # Cout $end
+$scope module cla0 $end
+$var wire 3 , C [2:0] $end
+$var wire 1 - Carry $end
+$var wire 1 . Cin $end
+$var wire 3 / D [2:0] $end
+$var wire 3 0 G [2:0] $end
+$var wire 3 1 P [2:0] $end
+$var wire 3 2 RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 3 carrie [2:0] $end
+$upscope $end
+$scope module cla1 $end
+$var wire 3 4 C [2:0] $end
+$var wire 1 5 Carry $end
+$var wire 1 6 Cin $end
+$var wire 3 7 D [2:0] $end
+$var wire 3 8 G [2:0] $end
+$var wire 3 9 P [2:0] $end
+$var wire 3 : RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 ; carrie [2:0] $end
+$upscope $end
+$scope module cla2 $end
+$var wire 3 < C [2:0] $end
+$var wire 1 = Carry $end
+$var wire 1 > Cin $end
+$var wire 3 ? D [2:0] $end
+$var wire 3 @ G [2:0] $end
+$var wire 3 A P [2:0] $end
+$var wire 3 B RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 C carrie [2:0] $end
+$upscope $end
+$scope module cla3 $end
+$var wire 3 D C [2:0] $end
+$var wire 1 E Carry $end
+$var wire 1 F Cin $end
+$var wire 3 G D [2:0] $end
+$var wire 3 H G [2:0] $end
+$var wire 3 I P [2:0] $end
+$var wire 3 J RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 K carrie [2:0] $end
+$upscope $end
+$scope module cla4 $end
+$var wire 3 L C [2:0] $end
+$var wire 1 # Carry $end
+$var wire 1 M Cin $end
+$var wire 3 N D [2:0] $end
+$var wire 3 O G [2:0] $end
+$var wire 3 P P [2:0] $end
+$var wire 3 Q RES [2:0] $end
+$var wire 1 & mode $end
+$var wire 3 R carrie [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 R
+b0 Q
+b0 P
+b0 O
+b0 N
+0M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+0F
+0E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+b0 ?
+0>
+0=
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+06
+05
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+0.
+0-
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+b0 %
+b0 $
+0#
+0"
+b0 !
+$end
+#10
+b1 B
+b1 C
+1>
+b100 *
+15
+b100 ;
+b10 8
+b11 2
+b1001011 !
+b1001011 +
+b1 :
+b10 /
+b110 7
+b11 1
+b101 9
+b110010 )
+b1 ,
+b11 4
+b110010 %
+b110010 (
+b11001 $
+b11001 '
+#20
+1"
+b0 B
+b0 C
+0>
+b0 *
+05
+b100 R
+b0 ;
+b10 O
+b0 2
+b0 :
+b100000000000000 !
+b100000000000000 +
+b100 Q
+b0 /
+b0 7
+b10 N
+b0 1
+b0 9
+b0 8
+b0 P
+b10000000000000 )
+b0 ,
+b0 4
+b10 L
+b10000000000000 %
+b10000000000000 (
+b10000000000000 $
+b10000000000000 '
+#30
+1#
+0"
+b110 O
+b100000000000000 !
+b100000000000000 +
+b100 Q
+b110 N
+b0 P
+b110000000000000 )
+b110 L
+b110000000000000 %
+b110000000000000 (
+b110000000000000 $
+b110000000000000 '
+#40
+1"
+b0 R
+b1 2
+b1 !
+b1 +
+b0 Q
+b100 N
+b1 1
+b0 P
+b100 O
+b100000000000000 )
+b1 ,
+b100 L
+b100000000000000 %
+b100000000000000 (
+b100000000000001 $
+b100000000000001 '
+#50
+b1 B
+b1 C
+1>
+15
+b100 ;
+0#
+0"
+b0 1
+b1 0
+b10 8
+b1 :
+b0 Q
+b1001011 !
+b1001011 +
+b11 2
+b1 /
+b110 7
+b0 N
+b101 9
+b0 P
+b0 O
+b11 3
+1.
+b110001 )
+b11 4
+b0 L
+b101 *
+1&
+b111111111001110 %
+b111111111001110 (
+b11001 $
+b11001 '
+#60
+1"
+b111 R
+1M
+1E
+b111 K
+1F
+1=
+16
+1-
+1>
+b11111 *
+15
+b111 C
+b0 B
+b0 J
+b111 3
+b111 ;
+b111 A
+b111 I
+b0 2
+b0 :
+b100000000000000 !
+b100000000000000 +
+b100 Q
+b111 /
+b111 7
+b111 ?
+b111 G
+b1 N
+b111 1
+b0 0
+b111 9
+b0 8
+b11 P
+b1111111111111 )
+b0 ,
+b0 4
+b10 L
+b110000000000000 %
+b110000000000000 (
+b10000000000000 $
+b10000000000000 '
+#70
+1#
+0"
+b100 O
+b100000000000000 !
+b100000000000000 +
+b100 Q
+b101 N
+b11 P
+b101111111111111 )
+b110 L
+b10000000000000 %
+b10000000000000 (
+b110000000000000 $
+b110000000000000 '
+#80
+1"
+06
+0>
+0F
+0M
+0-
+b0 ;
+05
+b0 C
+0=
+b0 K
+b1 *
+0E
+b1 3
+b0 R
+b0 :
+b0 B
+b0 J
+b0 9
+b0 A
+b0 I
+b11 2
+b11 !
+b11 +
+b0 Q
+b0 /
+b0 7
+b0 ?
+b0 G
+b100 N
+b10 1
+b0 0
+b0 P
+b100000000000000 )
+b10 ,
+b100 L
+b11111111111111 %
+b11111111111111 (
+b100000000000010 $
+b100000000000010 '
+#90
